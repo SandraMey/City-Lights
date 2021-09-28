@@ -51,6 +51,17 @@ ul.activities > li > a {
   color: white;
 }
 
+/*Image Format*/
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20em;
+
+  background-position: center;
+  color: white;
+}
+
 /*Form*/
 
 @font-face {
