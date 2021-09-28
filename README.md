@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Structure du projet:
 
 
