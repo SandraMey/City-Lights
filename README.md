@@ -1,6 +1,6 @@
 ## City Lights // Bon voyage
 
-Site réalisée en HTML, Css et JS vous proposant des activités dans plusieurs villes de France.
+Site réalisé en HTML, Css et JS vous proposant des activités dans plusieurs villes de France.
 
 
 
