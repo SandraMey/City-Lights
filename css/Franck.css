@@ -1,0 +1,27 @@
+
+/* Reset CSS : */
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  }
+
+.menujour .jour{
+    text-transform: uppercase;
+}
+
+.destinationSombre, .destination{
+    position: absolute; 
+    top: 0.5vh; 
+    left: 0; 
+    width: 100%; 
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.destinationSombre{
+    color: white;
+}
+
+/* Dans le HTML : Enlever les id des h2 pour les envoyer en haut des images, en les associant aux balises <article>
+ex : <article  id="saintjean" class="activity"> */

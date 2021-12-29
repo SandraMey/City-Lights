@@ -1,0 +1,170 @@
+/* GENERAL */
+*, ::before, ::after{
+  box-sizing: border-box;
+  margin : 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+h4{
+  font-size: 24px;
+  color: #444;
+}
+p{
+  line-height: 15px; 
+  color: #777;
+}
+a{
+  text-decoration : none;
+  color: #444;
+}
+
+small{
+  font-size:13px;
+  font-style: italic;
+}
+
+/*MAIN IMAGE*/
+
+#main-image{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 400px; 
+  background: url("../css/src/main-montagne.jpg") center ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  animation: main-image 20s linear infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes main-image {
+  0% {
+      background-image: url('../css/src/main-montagne.jpg');
+  }
+  25% {
+      background-image: url('../css/src/main-paris.jpg');
+  }
+  50% {
+      background-image: url('../css/src/main-moustier.jpg');
+  }
+  75% {
+      background-image: url('../css/src/main-chateau.jpg');
+  }
+  100% {
+      background-image: url('../css/src/main-montagne.jpg');
+  }
+}
+
+
+
+#main-image h2{
+  color:white;
+  text-shadow:2px 2px 15px black;
+  font-size: clamp(25px, 5vw, 55px);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* POSSIBILITIES */
+
+#possibilities{
+  height: auto;
+  padding: 3rem 0 3rem;
+  background-color: #efefef;
+  width: 100vw;
+}
+
+.introindex{
+  text-align: center;
+  font-style: italic;
+  font-size: clamp(16px, 3.2vw, 1.4rem);
+  padding-bottom: 3rem;
+  width: 100vw;
+}
+
+.gridelementindex:hover{
+	transform: rotate(-3deg);
+}
+
+.gridelementindex{
+  width: 500px;
+  height: 293px;
+  border-radius: 10px;
+  background-size: cover;
+  box-shadow: 7px 7px 1px 1px rgba(91, 91, 92, 0.2);
+}
+
+.ville{
+  background:rgba(255,255,255,0.95);
+  height: 100%;
+  width: 190px;
+  padding: 10px;
+  border-radius: 10px 0 0 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.gridelementindex h4{
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.gridelementindex p{
+  text-align: center;
+  margin-bottom: 20px;
+  height: auto;
+}
+.button-2{
+  color: #fff;
+  background-color: #ff7a00;
+  padding: 6px 20px;
+  border-radius: 3px;
+}
+.button-2:hover{
+  color: #fff;
+  background-color: #02b8dd;
+}
+
+.gridindex{
+  background-color: #efefef;
+  max-width: 1920px;
+  width: 90%;
+  height: auto;
+  margin: 10px auto;
+  display: grid;
+  
+  grid-template-columns: repeat(auto-fill, 500px);
+  justify-content: center;
+
+  gap: 30px;
+}
+
+.navbar_links {
+  overflow: hidden;
+}
+
+
+@media screen and (max-width: 500px){
+  #possibilities article{
+    width: 190px !important ;
+    margin: 5px auto;
+  }
+}
+
+
+  /* ------- REMINDER ------- */
+  /* min-width if screen >= {...} */
+  /* min-width = mobile-first */
+  
+  /* max if screen <= 800px {...} */
+  /* max-width = desktop-first */

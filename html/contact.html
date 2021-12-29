@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="../css/form.css" />
+    <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+    <link rel="stylesheet" type="text/css" href="../css/paul.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/navbarre.css">
+    <script src="/script.js"></script>
+  </head>
+  <body id="banner">
+    <nav class="navbar dark-mode">
+      <div class="navbar_logo animation"><a href="../index.html"><img src="../asset/bon-voyage.png" alt=""></a></div>
+      
+      <ul class="navbar_links">
+        
+        <li class="navbar_link"><a href="visiting-Blaye.html">Blaye</a></li>
+        <li class="navbar_link"><a href="visiting-Libourne.html">Libourne</a></li>
+        <li class="navbar_link"><a href="visiting-Lyon.html">Lyon</a></li>
+        <li class="navbar_link"><a href="visiting-Marseille.html">Marseille</a></li>
+        <li class="navbar_link"><a href="visiting-Nantes.html">Nantes</a></li> 
+      </ul>
+      <button class="burger">
+          <span class="bar"></span>
+      </button>
+    </nav>
+      <div class="content">
+        <form class="form grid-container--fill"  name=form onsubmit="validate();" >
+          <div class="formIntroduction">
+          
+          <p>Pour plus d'informations, contactez-nous pour organiser votre futur séjour 😉</p>
+          
+          </div>
+          <div class="fname">
+            <label for="fname">*Nom:</label>
+           <input type="text" id="fname" required/>
+          </div>
+
+          <div class="sname">
+            <label for="sname">*Prénom:</label>
+           <input type="text" id="sname" required/>
+         </div>
+
+
+         <div class="email">
+           <label for="email"  >*Email:</label>
+           <input type="text" id="email" name=emailInput/>
+         </div>
+      
+
+         <div class="choice">
+         <label>Choix de Destination</label>
+         <select class="city" name="city">
+           <option value="Blaye">Blaye</option>
+            <option value="Libourne">Libourne</option>
+            <option value="Lyon">Lyon</option>
+            <option value="Marseille">Marseille</option>
+            <option value="Nantes">Nantes</option>
+           </select>
+          </div>
+
+         <div class="nbDays">
+         <label >Nombre de jours</label>
+          <select class="day" name="day">
+            <option value="1">1 jour</option>
+            <option value="2">2 jours</option>
+            <option value="3">3 jours</option>
+         </select>
+         </div>
+
+        
+          <div class="messageBox">
+           <label >Commentaire:</label>
+           <textarea name="user_message"></textarea>
+          </div>
+
+         <div class="button">
+           <button id="button" onclick="validate()">Envoyer</button>
+         </div>
+       </form>
+      </div>
+    <footer>
+      <section class="footer">
+          <article class="who">
+            <img class ="nous" src ="../css/src/nous.jpg" alt="nous">
+          </article>
+          <article class ="us">
+            <h5>Qui sommes nous ?</h5>
+            <p>Une joyeuse bande de lémuriens <br>développeurs en formation à <br>la Wild Code School</p>
+          </article>
+    
+          <article class="lien">
+            <a class="lienstyle" href="html/contact.html">Contact |</a>
+            <a class="lienstyle" href=""> Mentions légales |</a>
+            <a class="lienstyle" href="">CGU |</a>
+            <a class="lienstyle" href="">Cookies</a>
+          </article>
+    
+          <article class="reseaux">
+            <h5>Suivez nos aventures</h5>
+            <img class="icon" src="https://img.icons8.com/color/48/000000/facebook.png" alt="facebook"/>
+            <img class="icon" src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="instagram"/>
+            <img class="icon" src="https://img.icons8.com/color/50/000000/pinterest--v1.png" alt="pinterest"/>
+          </article>
+    
+          <article class="copy">
+            <h5>&copy;Quai des Bananes</h5>
+          </article>  
+    
+          <article class="returnup">
+            <a href="#banner" class="buttonup">
+              <svg xmlns="http://www.w3.org/2000/svg" class="itemup" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7l4-4m0 0l4 4m-4-4v18" />
+              </svg>
+              <h5 class="scroll">Scroll up</h5>
+            </a>
+          </article>
+        </section>
+    </footer>
+    <script src="../js/navbar.js"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>

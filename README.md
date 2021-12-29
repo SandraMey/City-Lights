@@ -67,7 +67,4 @@ NB : Votre page s'affichera dans le localhost: 3000
 Si il faut je peux changer l'adresse si besoin..
 
 
-<SI TOUT A ETE BIEN EFFECTUÉ NORMALEMENT LE SITE FONCTIONNE
-
-
 

@@ -1,0 +1,29 @@
+main{
+    width: 85%;
+    margin:20px 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: left;
+  }
+
+/* relief aside + add thta with paul css style*/
+aside{
+padding: 10px 10px;
+background-color: rgb(252, 241, 241);
+width: 40%;
+border: black solid 2px;
+border-radius: 10px;
+box-shadow: 0 2px 2px 2px gray;
+}
+
+li{
+    list-style: none;
+}
+
+
+img{
+    height: auto;
+    width: 100%;
+  }
